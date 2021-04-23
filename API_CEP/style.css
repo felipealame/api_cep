@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.titulo {
+    color: rgb(66, 137, 66);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 1em 0 0.1em 0;
+}
+
+.api-ibge {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+label {
+    background: #cdcdcd;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    width: 300px;
+}
